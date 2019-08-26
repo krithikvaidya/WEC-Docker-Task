@@ -38,7 +38,7 @@ mongo
 &nbsp;  &nbsp;  &nbsp;  An interactive mongo shell should open up.
 
 &nbsp;  &nbsp;  &nbsp;  (Alternatively, we could have added the *--detached* parameter while running our *docker-compose up* command, which would have caused our container to run in the background, letting us type 
-&nbsp;  &nbsp;  &nbsp;  &nbsp;  commands in the same terminal window. So we could have run the *mongo* command without opening another terminal window)
+commands in the same terminal window. So we could have run the *mongo* command without opening another terminal window)
 
 
 ## Quick Explanation
