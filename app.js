@@ -18,7 +18,7 @@ mongoose
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
 app.use('/products', product);
-let port = 1234;
+let port = 3000;
 
 app.listen(port, () => {
     console.log('Server is up and running on port number ' + port);
