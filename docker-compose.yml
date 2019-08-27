@@ -6,7 +6,7 @@ services:
     build: .
     ports:
       - '1234:3000'
-    depends_on:
+    links:
       - mongo
   mongo:
     container_name: mongo
